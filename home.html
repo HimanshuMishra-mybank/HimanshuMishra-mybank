@@ -1,0 +1,112 @@
+<html>
+    <head>
+        <title>MY BANK(MB)</title>
+        <link rel="stylesheet" href="style.css">
+        <!-- CSS -->
+        <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/jquery@4.5.3/dist/jquery.min.js" >
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>
+
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:ital,wght@1,300@display=swap" rel="stylesheet">
+
+        <!-- LOGO -->
+        <link rel="stylsheet" href="logo.png">
+    </head>
+    <body onload="loader()">
+
+        <div id="loading"></div>
+        <section id="nav-bar">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <a class="navbar-brand" href="#"><img src=""></a>
+                <button class="navbar-toggler" type="button" data-toggler="collapse" dtat-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="toggler navigation">
+                    <i class="fa fa-bars"="true"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown"> <!--navbarNavDropdown-->
+
+<!--collapse navbar-collapse-->
+            
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <!-- <a class="nav-link text-white" href="/">Home <span class="sr-only">(current)</span></a>-->
+                            <a class="nav-link" href="home.html">Home<span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="customer.html">View Customers and Transfer History</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="banking system.html">About Us</a>
+                        </li>
+                    </ul>
+                </div>
+                
+
+               
+
+
+            </nav>
+        </section>
+
+        <!-- banner section -->
+        <section id="main" class="coloured-section">
+            <div class="container">
+                <h1>
+                    <img src="https://static8.depositphotos.com/1472772/951/i/950/depositphotos_9516075-stock-photo-bank-icon.jpg" width="100px" height="100px">
+                    WELCOME TO MY BANK
+                </h1>
+            </div>
+        </section>
+
+        <section id="features" class="white-section">
+            <button type="button" class="btn btn-dark btn-lg download-button" >
+                <h3 class="main">MY BANK</h3>
+            
+            </button>
+            <br>
+            <br>
+            <button type="button" class="btn btn-dark btn-lg download-button"><h4 class="text">How Can We Help You??</h4></button><br><br>
+            <a href="customer.html"><buttom type="button" class="btn btn-dark btn-lg download-button"></i>View Customers</buttom></a>
+            <a href="customer.html"><buttom type="button" class="btn btn-dark btn-lg download-button"></i>Transfer History</buttom></a>
+        </section>
+    </section>
+
+     
+
+<!-- footer -->
+   <footer id="footer" class="coloured-section">
+       <p>FIND US ON SOCIAL MEDIA</p>
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/a jax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+       <i class="social-icon fa fa-facebook-square" aria-hidden></i>
+       <i class="social-icon fa fa-instagram" aria-hidden="true"></i>
+       <i class="social-icon fa fa-twittwr" aria-hidden="true"></i>
+       <i class="social-icon fa fa-linkedin" aria-hidden="true"></i>
+       <p>Address:- MIG 1/63 Mishra villa, awash vikash , allahabad- 219001</p>
+       <p>@Copyright 2021 My Bank</p>
+       <p>Proudly made with love in India</p>
+   </footer>
+   <script>
+       var preloader=document.getElementById("loading");
+       function loader()
+       {
+           preloader.style.display="none";
+       }
+   </script>
+
+   <script src="script.js"></script>
+   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+   <script src="https://unpkg.com/popper.js@1.12.6/dist/umd/propper.js"></script>
+   <script src="https://unpkg.com/bootstrap.material-design@4.1.1/dist/js/bootstrap-material-design.js"></script>
+
+   <!-- aos data -->
+   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+   <script>
+       AOS.init(
+           {
+               duration:700,
+           }
+       );
+   </script>
+    </body>
+</html>

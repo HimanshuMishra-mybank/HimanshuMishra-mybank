@@ -1,0 +1,87 @@
+*{
+    margin:0;
+    padding:0;
+}
+#nav-bar
+{
+    background-color:#4400ff;
+    position: sticky;
+    top:0;
+    z-index:10;
+    float:right;
+}
+.navbar
+{
+    padding: 0 !important ;
+}
+.navbar-nav li{
+    padding:0 10px;
+}
+.navbar-nav li a
+{
+    color: #fff! important ;
+    font-weight:600;
+    float:right;
+    text-align:left;
+
+}
+.navbar-brand
+{
+    font-size:1.5rem;
+    color: #7995bb! important ;
+}
+.nav-link
+{
+    float:right;
+    color: #d6226d! important;
+}
+.nav-link:hover
+{
+    background-color: rgb(168, 65, 65);
+}
+#main
+{
+    text-align:center;
+    background-color: #48eb6b;
+}
+.main-info
+{
+    padding: 2rem 5rem;
+}
+.btn-info
+{
+    padding: 1rem 1.2rem;
+    background-color: rgb(192, 33, 86)! important;
+    color:#fff! important; 
+    margin-left:5px;
+    padding: 0.75rem;
+    transition: all 0.3s;
+
+
+   
+
+}
+.btn-info:hover
+{
+    background-color: #f3aef0! important;
+
+    opacity: 0.8;
+}
+
+
+/* Full-width inputs */
+input[type=text], input[type=password] {
+    font-family: Roboto-Regular;
+    color: #212121;
+    font-size: 18px;
+    width: 90%;
+    height: 40px;
+    margin: 10px;
+    padding: 1px 1px;
+    bottom: 0;
+    border: 0;
+    box-sizing: border-box;
+    background-color: white;
+    border-radius: 3px;
+}
+
